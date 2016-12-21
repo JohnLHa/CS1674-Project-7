@@ -1,6 +1,6 @@
 function [ labels ] = findLabelsKNN( pyramids_train, pyramids_test, labels_train, k )
 %FINDLABELSKNN Summary of this function goes here
-%   Detailed explanation goes here
+%   Finds the labels
 
 
 %finds all distances from testing point and sorts them

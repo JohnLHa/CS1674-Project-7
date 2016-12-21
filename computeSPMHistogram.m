@@ -1,5 +1,6 @@
 function [pyramid] = computeSPMHistogram(im, means)
-    
+    %Compute SPM Histogram based on the image and means
+    %Creates the 3 level pyramid
     [height, width] = size(im);
 
     means = means';

@@ -1,5 +1,5 @@
 function [accuracy] = computeAccuracy(trueLabels, predictedLabels)
-    
+    %Outputs accuracy of the labels
     correct_count = 0;
 
     for i = (1 : length(trueLabels))

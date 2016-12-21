@@ -1,4 +1,5 @@
 function [bow] = computeBOWRepr(descriptors, means)
+    %Computes a bag of words representation
 
     means = means';
 
